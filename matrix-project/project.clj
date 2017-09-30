@@ -8,4 +8,10 @@
                  [clatrix "0.3.0"] ; https://github.com/mikera/clatrix
                  [incanter "1.5.4"]
                  [org.clojure/data.csv "0.1.4"]
-                 ])
+                 [lambda-ml "0.1.0"]
+                 ]
+
+  :main ^:skip-aot matrix-project.core
+  :target-path "target/%s"
+  :profiles {:uberjar {:aot :all}})
+  
